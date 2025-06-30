@@ -1,0 +1,12 @@
+[package]
+name = "demo"
+version = "1.0.0"
+edition = "2024"
+
+# details 
+description = "Simple Rust Demo"
+authors = ["LEON"]
+license = "MIT"
+
+[dependencies]
+#Without relying on external libraries
