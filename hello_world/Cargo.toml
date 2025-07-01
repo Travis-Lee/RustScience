@@ -1,0 +1,12 @@
+[package]
+name = "hello_world"
+version = "1.0.0"
+edition = "2024"
+
+# details 
+description = "Simple Rust Hello Word"
+authors = ["LEON"]
+license = "MIT"
+
+[dependencies]
+#Without relying on external libraries
