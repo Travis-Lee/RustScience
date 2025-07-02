@@ -2,7 +2,7 @@
 // names and type information together specify the variant:
 // `PageLoad != PageUnload` and `KeyPress(char) != Paste(String)`.
 // Each is different and independent.
-
+#![allow(dead_code)]
 
 #[derive(Debug)]
 pub enum WebEvent{
@@ -52,4 +52,14 @@ pub fn inspect(event: WebEvent){
     }
 }
 
+#[derive(Debug)]
+pub enum Stage{
+    Beginner,
+    Advanced,
+}
 
+#[derive(Debug)]
+pub enum Role{
+    Student,
+    Teacher,
+}
