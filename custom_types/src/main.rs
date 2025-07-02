@@ -149,4 +149,13 @@ fn main(){
         Student => println!("Students are acquiring knowledge!"),
         Teacher => println!("Teachers are spreading knowledge!"),
     }
+
+    // `enums` can be cast as integers.
+    println!("zero is {}", enums::Number::Zero as i32);
+    println!("one is {}", enums::Number::One as i32);
+
+    println!("roses are #{:06x}", enums::Color::Red as i32);
+    println!("violets are #{:06x}", enums::Color::Blue as i32);
+
+
 }
